@@ -28,7 +28,7 @@ body {
 }
 
 #contact {
-  text-decoration: none;
+  color: white;
 }
 
 #logo:hover {
@@ -67,6 +67,10 @@ nav a:nth-child(2) {
       float: right;
 }
 
+nav a:nth-child(3) {
+      float: right;
+      margin-right: 20px;
+}
 /* header */
 
 header {
