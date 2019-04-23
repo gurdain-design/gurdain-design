@@ -126,6 +126,13 @@ header p {
   text-align: left;
 }
 
+.weblink {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
 /* footer */
 footer p {
   text-align: center;
