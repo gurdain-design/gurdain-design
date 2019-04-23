@@ -27,6 +27,12 @@ body {
       display: table;
 }
 
+.weblink {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
 #contact {
   color: white;
 }
