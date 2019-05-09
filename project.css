@@ -13,7 +13,7 @@ html {
 
 body {
   width: 100%;
-  background: #0E0E0E;
+  background: #EFEFEF;
 }
 
 .wrapper {
@@ -40,7 +40,7 @@ body {
   position: fixed;
   top: 0;
   width: 90%;
-  background: #0E0E0E;
+  background: #EFEFEF;
 }
 
 .navBar::after {
@@ -50,7 +50,7 @@ body {
 }
 
 #contact {
-  color: white;
+  color: #D9C6C3;
 }
 
 #logo:hover {
@@ -62,12 +62,12 @@ body {
 }
 
 h1 {
-  color: #fff;
+  color: #B0B0B0;
   font-size: 48px;
 }
 
 p {
-  color: #fff;
+  color: #707070;
   font-size: 16px;
   font-weight: 300;
 }
@@ -128,7 +128,7 @@ header p {
 
 .weblink {
   text-decoration: none;
-  color: white;
+  color: #939DA3;
   font-weight: bold;
 }
 

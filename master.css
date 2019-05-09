@@ -13,7 +13,7 @@ html {
 
 body {
       width: 100%;
-      background: #0E0E0E;
+      background: #EFEFEF;
 }
 
 .wrapper {
@@ -29,12 +29,12 @@ body {
 
 .weblink {
   text-decoration: none;
-  color: white;
+  color: #939DA3;
   font-weight: bold;
 }
 
 #contact {
-  color: white;
+  color: #D9C6C3;
 }
 
 #logo:hover {
@@ -46,12 +46,12 @@ body {
 }
 
 h1 {
-      color: #fff;
+      color: #B0B0B0;
       font-size: 48px;
 }
 
 p {
-      color: #fff;
+      color: #707070;
       font-size: 16px;
       font-weight: 300;
 }
@@ -100,6 +100,10 @@ header p {
       width: 45%;
 }
 
+.work a:hover {
+  opacity: 0.6;
+}
+
 /* header2 */
 
 .header2 {
@@ -116,6 +120,7 @@ header p {
       margin: 1%;
       width: 94%;
 }
+
 
 /* footer */
 footer p {
