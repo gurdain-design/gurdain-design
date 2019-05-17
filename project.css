@@ -120,6 +120,11 @@ header p {
   width: 94%;
 }
 
+.work2 video {
+  margin: 1%;
+  width: 80%;
+}
+
 .work2 p {
   margin-top: 20px;
   width: 45%;
