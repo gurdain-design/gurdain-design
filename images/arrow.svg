@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="79" width="30">
+  <defs>
+    <rect id="rect-1" opacity="1" x="0" y="0" width="30" height="79"/>
+    <path id="path-2" opacity="1" fill-rule="evenodd" d="M0,7.500000000000007 L42.55614989299079,7.502811615156979 "/>
+    <path id="path-3" opacity="1" fill-rule="evenodd" d="M37.549074699155994,2.500000000000007 L42.54907469915611,7.500000000000007 L37.549074699155994,12.5 "/>
+  </defs>
+  <g opacity="1">
+    <g opacity="1">
+      <use xlink:href="#rect-1" fill="rgb(242,242,242)" fill-opacity="1"/>
+    </g>
+    <g transform="translate(15, 33.278074946495394) rotate(90.00003218077504) translate(-15, -33.278074946495394) translate(-6.278074946495394, 25.778074946495394)" opacity="1">
+      <g opacity="1">
+        <use xlink:href="#path-2" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="2"/>
+      </g>
+      <g opacity="1">
+        <use xlink:href="#path-3" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
