@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="14.71163433951142" width="23.401437015025977">
+  <defs>
+    <rect id="rect-1" opacity="1" x="0" y="0" width="16" height="14" rx="0" ry="0"/>
+    <mask id="mask-2" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-3.714774313134285" y="-0.71163433951142">
+      <rect opacity="1" x="-3.714774313134285" y="-0.71163433951142" width="23.401437015025977" height="14.71163433951142" fill="black"/>
+      <use xlink:href="#rect-1" fill="white"/>
+    </mask>
+    <path id="path-3" opacity="1" fill-rule="evenodd" d="M0.9898557963443864,3.9929957699669956 L8.011813179851629,8.023160017142786 L14.982032592413248,4.060666413464247 "/>
+  </defs>
+  <g transform="translate(3.714774313134285, 0.71163433951142)" opacity="1">
+    <g opacity="1">
+      <use xlink:href="#rect-1" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-2)"/>
+    </g>
+    <g opacity="1">
+      <use xlink:href="#path-3" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
