@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+    <link href="../css/aos.css" type="text/css" rel="stylesheet">
+    <title>gurdain.design</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script src="../js/jquery-main.js"></script>
+</head>
+
+<body>
+    <header id="top">
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li><a href="../work.html">gurdain.design</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-right">
+                <div class="menu-wrap">
+                    <input type="checkbox" class="toggler">
+                    <div class="hamburger">
+                        <div></div>
+                    </div>
+                    <div class="menu">
+                        <div>
+                            <div>
+                                <ul>
+                                    <li><a href="../work.html">work</a></li>
+                                    <li><a href="../contact.html">contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="project-bg">
+        <div class="project-main">
+            <img src="../images/wander_ep_project_01.png">
+        </div>
+        <div class="project-info-bg">
+            <div class="project-info">
+                <h1>Wander EP Artwork</h1>
+                <p>Artwork for 'Wander EP' by Celestial. The original photograph of the silhouetted man was taken by photographer "IK". The artwork needed to convey the message of "Wandering/Deep Thinking" as well as elements of space. Purple and blue colours are prevalent in Celestial's visual representation and were implemented in this work.</p>
+            </div>
+        </div>
+        <div class="project-main">
+            <img src="../images/wander_ep_project_02.png" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
+            <img src="../images/wander_ep_project_03.png" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
+            <img src="../images/wander_ep_project_04.png" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
+            <img src="../images/wander_ep_project_05.png" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
+        </div>
+        <div class="project-footer">
+            <div class="project-footer-header">
+                <h1>more work</h1>
+            </div>
+            <div class="project-footer-work" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
+                <a href="../work/feel_again.html">
+                    <img src="../images/project3.png">
+                </a>
+                <a href="../work/chapters_ep.html">
+                    <img src="../images/project5.png">
+                </a>
+                <a href="../work/roshni.html">
+                    <img src="../images/project12.png">
+                </a>
+            </div>
+            <div class="project-footer-end">
+                <a href="#top">
+                    <p>back to top</p>
+                </a>
+                <p>created by Gurdain</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../main.js"></script>
+
+    <script src="../js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        /* Open */
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        /* Close */
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+
+        /* Tab Content */
+        function openCity(evt, cityName) {
+            document.getElementById("defaultOpen").click();
+
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+</body></html>
