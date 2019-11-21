@@ -696,11 +696,20 @@ menu-wrap {
     .tabcontent img {
         width: 100%;
     }
-    
+
+    .project-info-bg {
+        background-color: #EDC7B7;
+        height: auto;
+    }
+
+    .project-info p {
+        padding-bottom: 25px;
+    }
+
     .contact-header h1 {
         font-size: 1.8em;
     }
-    
+
     .contact-body-header {
         width: 80%;
         margin: 0 auto;
@@ -714,7 +723,7 @@ menu-wrap {
     .contact-body-header h3 {
         font-size: 1em;
     }
-    
+
     .contact-body-icons {
         font-size: 2em;
     }
@@ -728,6 +737,11 @@ menu-wrap {
 
     #main-heading {
         font-size: 1.2em;
+    }
+
+    .project-info {
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
 
@@ -749,11 +763,16 @@ menu-wrap {
     .work-selector-tab {
         padding-top: 1%;
     }
-    
-     .contact-header h1 {
+
+    .project-info {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-header h1 {
         font-size: 1.4em;
     }
-    
+
     .contact-body-header {
         width: 80%;
         margin: 0 auto;
@@ -767,7 +786,7 @@ menu-wrap {
     .contact-body-header h3 {
         font-size: 0.6em;
     }
-    
+
     .contact-body-icons {
         margin-top: -25px;
         font-size: 1.8em;
